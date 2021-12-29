@@ -1,0 +1,7 @@
+notebook
+yfinance
+pandas
+numpy
+datetime
+dateutil
+bokeh

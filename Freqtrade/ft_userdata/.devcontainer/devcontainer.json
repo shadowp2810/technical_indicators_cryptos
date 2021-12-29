@@ -1,0 +1,28 @@
+{
+  "name": "My Freqtrade Docker Env",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      // Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8, 3.9
+      "VARIANT": "3"
+    }
+  },
+
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "python.languageServer": "Pylance"
+  },
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": ["ms-python.python", "ms-python.vscode-pylance"]
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+  // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+  // "remoteUser": "vscode"
+}
