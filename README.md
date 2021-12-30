@@ -40,9 +40,12 @@ Drawdown is between 8% and 50% depending on the stock selection for MACD9fall.
 Drawdown is too high to be considered safe for BB10fall. 
 
 And if you could spare some change haha
+
 ETH
 0x38f96AD454b2F9d90eBF725062123a136ddfbD80
 
+SOL
+D7wc6MfLgPNpLnak9jjEXHfuhVE5KMsoNiU397iAu9oh
 
 </pre>   
 
